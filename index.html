@@ -1,13 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Website</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Florian Walter | dub-flow</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/profile.jpg" />
 </head>
 <body>
-  <h1>Hello, World!</h1>
-  <button onclick="sayHello()">Click Me</button>
-  <script src="script.js"></script>
+  <header>
+    <img src="assets/me.jpeg" alt="Florian Walter" class="profile-pic"/>
+    <h1>Florian Walter <span>(dub-flow)</span></h1>
+    <p class="whoami">[Insert a short bio about you — who you are, what you do, and what you're passionate about]</p>
+  </header>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Secure Code Review Challenges:</strong> A series of intentionable vulnerable code snippets with the goal of finding and remediating the security vulnerability (<a>https://github.com/dub-flow/secure-code-review-challenges</a>)</li>
+      <li><strong>SubSnipe</strong> A tool designed to help find subdomains that are vulnerable to takeover (<a>https://github.com/dub-flow/subsnipe</a>)</li>
+      <li><strong>SessionProbe</strong> A tool designed for penetration testing and bug bounty hunting. It evaluates user privileges in web applications by taking a session token and checking access across a list of URLs, highlighting potential authorization issues. (<a>https://github.com/dub-flow/sessionprobe</a>)</li>
+      <li><strong>Vulnerability Research</strong> Looking for vulnerabilities in popular open-source and, so far, found 25+ CVEs. The most popular vulnerability I found was XSS in Apache Spark (used by 80% of the Fortune 500). You can find a list of all my CVEs here: <a>https://github.com/dub-flow/vulnerability-research</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <h3>Connect with me</h3>
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/florian-ethical-hacker/" target="_blank" aria-label="LinkedIn">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn"/>
+      </a>
+      <a href="https://www.youtube.com/@dub-flow-security" target="_blank" aria-label="YouTube">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg" alt="YouTube"/>
+      </a>
+      <a href="https://github.com/dub-flow" target="_blank" aria-label="GitHub">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub"/>
+      </a>
+      <a href="https://medium.com/@dub-flow" target="_blank" aria-label="Medium">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/medium.svg" alt="Medium"/>
+      </a>
+    </div>
+  </footer>
 </body>
 </html>
