@@ -43,6 +43,7 @@ header h1 span {
 .projects {
     padding: 3em 1em;
     background: #1a1a1a;
+    margin-bottom: 1em;
 }
 
 .projects h2 {
@@ -91,4 +92,23 @@ footer h3 {
     color: #fff;
     font-weight: 700;
     margin-bottom: 0.2em;
+}
+
+.sponsoring {
+    padding: 3em 1em;
+    background: #1a1a1a;
+    color: #ddd;
+    text-align: center;
+    margin-top: 0;
+}
+
+.sponsoring h2 {
+    font-family: monospace;
+    color: #4caf50;
+}
+
+.sponsoring p {
+    font-size: 1em;
+    margin: 1em auto;
+    max-width: 800px;
 }
