@@ -112,3 +112,17 @@ footer h3 {
     margin: 1em auto;
     max-width: 800px;
 }
+
+.projects a, .sponsoring a, .privacy-link {
+    color: #4caf50;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.projects a:hover, .sponsoring a:hover, .privacy-link:hover {
+    text-decoration: underline;
+}
+
+.projects a:visited, .sponsoring a:visited, .privacy-link:visited {
+    color: #4caf50;
+}
